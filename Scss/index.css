@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: -999;
+}
+
+body {
+  z-index: 999;
+  color: #fff;
+  background-color: #674baf;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: -5vh;
+  left: 0;
+}
+
+nav {
+  margin: 1rem .5rem 0;
+  width: 10rem;
+  height: 5vh;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  height: 90vh;
+}
+
+main .imgbox {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 90%;
+}
+
+main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+main .content h1 {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  font-size: 2rem;
+  margin: 1.5rem .5rem 0 .5rem;
+}
+
+main .content p {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  margin: .5rem .5rem 0 .5rem;
+  font-size: 1.2rem;
+}
+
+main .content a.point {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: .5rem;
+  width: 12rem;
+  height: 2.5rem;
+  margin: 1.5rem auto;
+  -ms-grid-row-align: center;
+      align-self: center;
+  background: #fff;
+  color: #e882e8;
+  -webkit-box-shadow: 0.2rem 0.2rem 0.3rem 0.1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.2rem 0.2rem 0.3rem 0.1rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+footer {
+  height: 2.5vh;
+  text-align: center;
+  margin-top: -2rem;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 70%;
+  }
+  .main .imgbox {
+    width: 40% !important;
+    height: 50vh !important;
+    -ms-flex-item-align: start !important;
+        align-self: flex-start !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */

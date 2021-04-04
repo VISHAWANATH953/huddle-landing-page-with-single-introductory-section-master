@@ -1,0 +1,12 @@
+@media screen and (min-width:992px) {
+    html{
+        font-size: 70%;
+    }
+    .main{
+        .imgbox{
+            width: 40% !important;
+            height: 50vh !important;
+            align-self: flex-start !important;
+        }
+    }
+}
