@@ -1,12 +1,23 @@
-@media screen and (min-width:992px) {
-    html{
-        font-size: 70%;
+@media screen and (max-width:762px) {
+    nav{
+        margin: 1rem .5rem 0;
+        width: 10rem;
+        height: 5vh;
     }
-    .main{
-        .imgbox{
-            width: 40% !important;
-            height: 50vh !important;
-            align-self: flex-start !important;
+    .back{
+        display: none;
+    }
+    .back1{
+        display: block;
+    }
+    main{
+        margin: 1rem;
+        flex-flow: row wrap;
+        justify-content: center;
+        .imgbox,.content{
+            flex-basis: 90%;
+            height: 45vh;
+            margin: 0 2.5rem;
         }
     }
 }
