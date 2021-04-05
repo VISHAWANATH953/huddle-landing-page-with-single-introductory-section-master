@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 html {
-  font-size: 62.5%;
+  font-size: 88%;
 }
 
 * {
@@ -130,6 +130,9 @@ footer {
 }
 
 @media screen and (max-width: 762px) {
+  html {
+    font-size: 62.5%;
+  }
   nav {
     margin: 1rem .5rem 0;
     width: 10rem;
@@ -154,7 +157,7 @@ footer {
   main .imgbox, main .content {
     -ms-flex-preferred-size: 90%;
         flex-basis: 90%;
-    height: 45vh;
+    height: 40vh;
     margin: 0 2.5rem;
   }
 }
